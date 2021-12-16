@@ -1,0 +1,398 @@
+
+:root {
+    --main_theme: #1D465C;
+    --secondry_theme:#5CAD33 ;
+   
+  }
+nav.navbar.bootsnav.ulockd-menu-style1 li.dropdown ul.dropdown-menu{
+    background-color: #1d465c;
+}
+.header-top-info {
+   color: white !important; 
+    font-size: 12px;
+}
+input.form-control{
+    color: #424242;
+}
+#nav-side {
+    background-color: var(--main_theme) !important;
+}
+
+.providing__section {
+    background-image: url("../images/Groupbac.png"); 
+}
+.ulockd-overlayer a {
+    border: 1px solid #fff;
+    border-radius: 50%;
+
+    margin-right: 7px;
+    padding: 8px 8px;
+   
+    width: 34px !important;
+    height: 34px !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.ulockd-bgthm{
+    background-color: var(--main_theme) !important;
+}
+/* ==================================*/
+/* ============ footer ============= */
+/* ==================================*/
+.ulockd-footer {
+    background-color: var(--main_theme);
+  
+}
+.footer-qlink .list-unstyled li a , .ulockd-ftr-text {
+    color: #F1EDE4;
+    font-size: 14px;
+ 
+ }
+ 
+.Quick-Contacts {
+    padding: 35px;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+.Quick-Contacts h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+    color: var(--main_theme);
+}
+.phone-number{
+    font-size: 22px;
+    color: var(--secondry_theme);
+    font-family: "DiodrumArabicMeduim";
+}
+.Quick-Contacts p{
+    margin-bottom: 0;
+}
+.Quick-Contacts .phone-number {
+    margin: 15px 0;
+}
+.Quick-Contacts .phone-number span{
+    margin-right: 5px;
+}
+.content-data-footer{
+    position: relative;
+    z-index: 1;
+}
+.Quick-Contacts{
+    position: relative;
+}
+.Quick-Contacts::after {
+    position: absolute;
+    content: '';
+    top: 30px;
+    bottom: 30px;
+    width: 4px;
+    /* height: 100%; */
+    right: 0;
+    background-color: var(--secondry_theme);
+}
+
+.abs-img-footer {
+    position: absolute;
+    width: 168px;
+    height: 168px;
+    bottom: -38px;
+    right: -36px;
+    transform: rotate(354deg);
+    transition: all .4s ease-in-out;
+}
+.Quick-Contacts:hover img {
+    transform: rotate(332deg)
+}
+.flx-social {
+    display: flex;
+    align-items: center;
+}
+
+.flx-social div {
+    margin-left: 8px;
+    color: var(--secondry_theme);
+    background-color: rgb(92 173 51 / 10%);
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 14px;
+}
+.flx-social{
+    margin-top: 30px;
+}
+.copyrights {
+    background-color:#fff;
+    padding: 30px;
+    text-align: center;
+}
+.ulockd-overlayer a:hover{
+    background-color: var(--secondry_theme) !important;
+}
+.ulockd-footer-log {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin: 10px 0;
+    width: 234px;
+}
+.Quick-Contacts {
+    padding: 20px;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+.content-flx-footer {
+    display: flex;
+    justify-content: space-between;
+    color: #7E7E7E;
+    font-family: 'DiodrumArabicMeduim';
+    font-size: 16px;
+}
+.content-flx-footer a{
+    color: #7E7E7E;
+    font-family: 'DiodrumArabicMeduim';
+
+}
+.content-flx-footer div{
+    width: 50%;
+}
+.content-flx-footer div:nth-child(1) {
+    text-align: right;
+}
+.content-flx-footer div:nth-child(2){
+    text-align: left;
+}
+.content-flx-footer div:nth-child(2) a{
+    margin-right: 15px;
+}
+/* ==================================*/
+/* ============ end footer ============= */
+/* ==================================*/
+/* =================================*/
+/* ============ bread crumbs ========*/
+/* =================================*/
+.breadCrumbs{
+    background-image: url('../images/breadCrumbs-rtl.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+}
+
+/* =================================*/
+/* ============end bread crumbs ========*/
+/* =================================*/
+
+
+
+/* ===============================*/
+/* ========== responsive ==========*/
+/*=================================*/
+@media (max-width: 1450px) {}
+@media (min-width: 600px) {
+#book_mob{
+    display: none;
+
+}
+#book_with{
+    padding-bottom: 10px;
+}
+}
+
+@media (max-width: 1050px) {}
+
+@media (max-width: 1199px) {}
+@media (max-width: 991px) {
+
+}
+@media only screen and (max-width: 767px) {
+    /* ============= start  footer  ================== */
+    .flx-social{
+        margin-top: 15px;
+    }
+    .content-flx-footer div:nth-child(2) a {
+        margin-right: 4px;
+    }
+    .content-flx-footer {
+        font-size: 13px;
+        flex-direction: column;
+    }
+    .content-flx-footer div:nth-child(2) , .content-flx-footer div:nth-child(1) {
+        text-align: center;
+    }
+    .content-flx-footer div {
+        width: 100%;
+    }
+    .content-flx-footer div:nth-child(2) {
+        margin-top: 12px;
+    }
+    .footer-qlink h3{
+        font-size: 16px;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-bottom: 4px;
+        margin-top: 28px;
+    }
+    /* ============= end  footer  ================== */
+
+}
+@media screen and (max-width: 600px) {
+    .breadCrumbs{
+        background-size: cover;
+background-position: right;
+    }
+    #book_with{
+        display: none;
+    }
+    .patient_guide_list {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+}
+
+@media only screen and (max-width: 320px) {}
+.masonry-gallery .ulockd-team-two-member{
+    margin: 3px ;
+}
+#img_doctor{
+    background-color: #F7F8FC;text-align: center;
+}
+
+.doc_decs{
+    font-size: 18px;
+    color: #1D465C;
+    line-height: 2;
+    text-align: justify;
+}
+
+#book-now{
+    font-size: 16px;
+font-family: DiodrumArabicMeduim;
+background-color: #6CB64E;
+padding: 10px 40px 20px 40px;
+border-radius: 40px;
+color: white !important;
+border: 1px solid #59A43C;
+}
+#book_with{
+    color: white;padding: 0px; margin-top: -10px;
+}
+#book_mob{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.gm-style .place-card a:link{
+
+    color: #5BAE3A !important;
+}
+@media (min-width: 600px) {
+    #book_mob{
+        display: none;
+    
+    }
+    #book_with{
+        padding-bottom: 35px;
+    }
+    
+    }
+    @media (min-width: 991px) {
+        .patient_guied_acc_con{
+            position: static !important;
+            height: auto !important;
+        }
+        .patient_guied_acc_con .card{
+            border: none;
+            border-bottom: 1px solid rgba(0,0,0,.125);
+        }
+        .patient_guide_list a:hover , .patient_guide_list a:focus {
+            border-bottom: 1px solid #5BAE3A;
+            background: none;
+            color: #5BAE3A;
+        }
+        .patient_guide_list{
+            text-align: right;
+            margin-top: 20px;
+        }
+        .patient_guide_list li{
+            display: block;
+        }
+
+.patient_guide_list li a{
+ border: none;
+    color: #555555;
+display: inline-block;
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+float: none;
+line-height: 40px;
+margin-bottom: 10px;
+margin-right: -10px;
+outline: medium none;
+padding: 0 15px;
+text-transform: uppercase;
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+}
+
+        .masonry-gallery.grid-four-item .patient_guied{
+width: 100% !important;
+
+}
+
+      
+    .contact-us-det{
+     margin-top: 5px;
+        text-align: center;
+        border: 0.2px solid rgba(128, 128, 128, 0.315);
+         padding: 30px;
+          border-radius: 4px;
+          height: 225px;
+    }
+   
+    .input-icon-wrap {
+        
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+      }
+      
+      .input-icon {
+        background: #fff;
+      }
+      
+      .input-with-icon {
+        border: none;
+        flex: 1;
+      }
+    
+      .input-with-icon:focus-visible{
+          outline: 1px solid #5BAE3A;
+      }
+      .patient_guied{
+          position: static !important;
+      }
+      .patient_guied_acc_con{
+        position: static !important;
+        height: auto !important;
+    }
+
+    .patient_guied{
+        width: 100% !important;
+    }
+    .patient_guide_list {
+        margin-top: 20px;
+    }
+    .fa-circle{
+        color: var(--main_theme);
+        
+    }
+}
